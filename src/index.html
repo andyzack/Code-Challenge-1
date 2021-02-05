@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div id="board">
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares">
+          <div id="square">
+            <img
+              id="pacman"
+              src="/static/media/pacman.c1fe2291.png"
+              style="transform: rotate(270deg)"
+            />
+          </div>
+        </div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+        <div id="squares"><div id="square"></div></div>
+      </div>
+      <button>Move</button><button>Right</button><button>Left</button
+      ><button>Report</button>
+      <form>
+        <label
+          >X Coordanate:<input
+            id="x"
+            type="number"
+            min="0"
+            max="4"
+            placeholder="x"
+            required="" /></label
+        ><br /><label
+          >Y Coordenate:<input
+            id="y"
+            type="number"
+            min="0"
+            max="4"
+            placeholder="y"
+            required="" /></label
+        ><br /><label
+          >North:<input
+            type="radio"
+            id="north"
+            name="rotation"
+            value="270" /></label
+        ><label
+          >East:<input
+            type="radio"
+            id="east"
+            name="rotation"
+            value="0"
+            checked="" /></label
+        ><label
+          >South:<input
+            type="radio"
+            id="south"
+            name="rotation"
+            value="90" /></label
+        ><label
+          >West:<input
+            type="radio"
+            id="west"
+            name="rotation"
+            value="180" /></label
+        ><input type="submit" value="Place" />
+      </form>
+      <div id="report" style="display: inline">
+        <h2>Pacman's coordinates are (0, 0) and is facing North</h2>
+      </div>
+    </div>
+  </body>
+</html>
